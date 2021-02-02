@@ -19,6 +19,7 @@ This is just for basic theory to use Python
 
 ### def
 - **How to make**
+
   **def** name : - the contents of the function must be intended from the next line and then written
   ```
   def say_hello :
@@ -26,6 +27,7 @@ This is just for basic theory to use Python
   ```
 
 - **Argument**
+
   **def** hello(name) :
   ```
   def hello(name) :
