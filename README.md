@@ -7,7 +7,7 @@
 # Note
 - [**list**](#list) - [] **: common and mutable sequence**
 - **tuple - () : only common sequence**
-- [**dictionary(=object?) - {}**](#dictionary) **: consisting of values and attributes**
+- [**dictionary(=object?)**](#dictionary) - **{} : consisting of values and attributes**
 - [**def**](#def) **: function**
 - [**for in**](#for-in) **: This is the same as used in JS, I think.**
 - [**module**](#module) **: fetch some library or function, somthing like that**
@@ -21,6 +21,7 @@
   ```
   - **[-1]** : **Last** element of list
   - **[:-1]** : **List** that **excluded** only the last element
+  - **[0:-1]** : If there is [1, 2, 3, 4, 5], From the **1** to the **4**
 
 
 ### dictionary
