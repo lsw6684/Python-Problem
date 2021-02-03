@@ -3,12 +3,23 @@ This is just for basic theory to use Python
 
 
 # Note
-- **list - [] : common and mutable sequence**
+- [**list**](#list) - [] **: common and mutable sequence**
 - **tuple - () : only common sequence**
 - [**dictionary(=object?) - {}**](#dictionary) **: consisting of values and attributes**
 - [**def**](#def) **: function**
 - [**for in**](#for-in) **: This is the same as used in JS, I think.**
 - [**module**](#module) **: fetch some library or function, somthing like that**
+
+### list
+- **Indexing** 
+  **a[n]** : You can think of the array
+- **Slicing** : From **a** to the **b**
+  ```
+  a[0:3]
+  ```
+  - **[-1]** : **Last** element of list
+  - **[:-1]** : **List** that **excluded** only the last element
+
 
 ### dictionary
 - **adding to object**
