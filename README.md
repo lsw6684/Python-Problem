@@ -4,13 +4,14 @@
 
 ***This is just for basic theory to use Python***
 
-# Note
+# Contents
 - [**list**](#list) - [] **: common and mutable sequence**
 - **tuple - () : only common sequence**
 - [**dictionary(=object?)**](#dictionary) - **{} : consisting of values and attributes**
 - [**def**](#def) **: function**
 - [**for in**](#for-in) **: This is the same as used in JS, I think.**
 - [**module**](#module) **: fetch some library or function, somthing like that**
+- [**range**](#range) **: Generate a list of numbers automately**
 
 ### list
 - **Indexing** 
@@ -43,33 +44,41 @@
 - **Argument**
 
   **def** hello(name) :
-  ```
+  ```python
   def hello(name) :
     print("Hello " + name)
   ```
   ***or***
-  ```
+  ```python
   def hello(name) :         # Note this. In this case, if you use the low version of Python,
     print("Hello", name)    # the compiler recognizes the argument after ", " as a tuple.
   ```
   - default argument
-    ```
+    ```python
     def hello(name="anonymous") :
     ```
   - return
-    ```
+    ```python
     def plus(a, b)
     return a + b
     ```
 ### for in
 **for** "name" **in** "something like array"
-```
+```python
 for name in [1, 2, 3, 4] :
 ```
 ### module 
-```
+```python
 import math
 or
 from math import ceil         # If you use a little bit, the latter is more recommended.
 
+```
+### range
+```python
+range(1, 6)                     # [1, 2, 3, 4, 5]
+range(6)                        # [0, 1, 2, 3, 4, 5], ( = range(0, 6) )
+------------------------------
+marks = [1, 2, 3, 4, 5]
+for test in range(len(mark)) :  # len(mark) = 5 >> test is from "0" to "4"
 ```
