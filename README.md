@@ -17,7 +17,7 @@
 - **Indexing** 
   **a[n]** : You can think of the array
 - **Slicing** : From **a** to the **b**
-  ```
+  ```python
   list[a:b]
   ```
   - **[-1]** : **Last** element of list
@@ -28,7 +28,7 @@
 ### dictionary
 - **adding to object**
   Object["attribute"] = Value
-  ```
+  ```python
   SeungWon["handsome"] = True 
   ```
 
@@ -36,7 +36,7 @@
 - **How to make**
 
   **def** name : - the contents of the function must be intended from the next line and then written
-  ```
+  ```python
   def say_hello :
     print("hello")
   ```
