@@ -18,7 +18,7 @@
   **a[n]** : You can think of the array
 - **Slicing** : From **a** to the **b**
   ```python
-  listName [a:b]
+  listName[a:b]
   ```
   - **[-1]** : **Last** element of list
   - **[:-1]** : **List** that **excluded** only the last element
