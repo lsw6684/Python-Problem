@@ -1,6 +1,8 @@
-# Python-Problem
-This is just for basic theory to use Python
+<p align="center">
+  <a href="https://www.python.org"><img src="https://raw.githubusercontent.com/willtheorangeguy/Python-Logo-Widgets/master/pythonlogogif.gif"/></a>
+</p>
 
+***This is just for basic theory to use Python***
 
 # Note
 - [**list**](#list) - [] **: common and mutable sequence**
