@@ -7,7 +7,7 @@
 # Contents
 - [**list**](#list) - [] **: common and mutable sequence**
 - **tuple - () : only common sequence**
-- [**dictionary(=object?)**](#dictionary) - **{} : consisting of values and attributes**
+- [**dictionary(=object?)**](#dictionary) - **{} : consisting of keys and values**
 - [**def**](#def) **: function**
 - [**for in**](#for-in) **: This is the same as used in JS, I think.**
 - [**module**](#module) **: fetch some library or function, somthing like that**
@@ -27,17 +27,30 @@
 
 ### dictionary
 - **adding to object**
-  Object["attribute"] = Value
+
+  Object["key"] = Value
   ```python
   SeungWon["handsome"] = True 
   ```
 - **deleting from object**
-  **del** Object["attribute"]
+
+  **del** Object["key"]
   ```python
   >>> grade = {'pey':10, 'jullet':9}
   >>> del grade[pey]
   >>> print(grade)
   {'jullet':9}
+  ```
+- **Keys**
+  ```python
+  >>> a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+  >>> print(a.keys())
+  (['name', 'phone', 'birth'])  
+  ```
+- **Values**
+  ```python
+  >>> print(a.values())
+  (['pey', '0119993323', '1118'])
   ```
 
 ### def
