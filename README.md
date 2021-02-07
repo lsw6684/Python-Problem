@@ -31,6 +31,14 @@
   ```python
   SeungWon["handsome"] = True 
   ```
+- **deleting from object**
+  **del** Object["attribute"]
+  ```python
+  >>> grade = {'pey':10, 'jullet':9}
+  >>> del grade[pey]
+  >>> print(grade)
+  {'jullet':9}
+  ```
 
 ### def
 - **How to make**
