@@ -83,7 +83,7 @@
     def plus(a, b)
     return a + b
     ```
-   - *
+   - &#42;
     ```python
     >>> def test(a, b, *args) :
     >>>   print(args)
