@@ -7,7 +7,7 @@
 # Contents
 - [**list**](#list) - [] **: common and mutable sequence**
 - **tuple - () : only common sequence**
-- [**dictionary(=object?)**](#dictionary) - **{} : consisting of keys and values**
+- [**dictionary**](#dictionary)**(=object?)** - **{} : consisting of keys and values**
 - [**def**](#def) **: function**
 - [**for in**](#for-in) **: This is the same as used in JS, I think.**
 - [**module**](#module) **: fetch some library or function, somthing like that**
@@ -90,6 +90,14 @@
     >>> test(1, 2, 3, 4, 5, 6, 7)
     (3, 4, 5, 6, 7)
     ```
+  - &#42;&#42;
+    ```python
+    >>> def test(**args) :
+    >>>   print(args)
+    >>> test(hello = True, bye = True)
+    {'hello': True, 'bye': True}
+    ```
+
 ### for in
 **for** "name" **in** "something like array"
 ```python
