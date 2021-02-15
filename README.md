@@ -83,6 +83,13 @@
     def plus(a, b)
     return a + b
     ```
+   - *
+    ```python
+    >>> def test(a, b, *args) :
+    >>>   print(args)
+    >>> test(1, 2, 3, 4, 5, 6, 7)
+    (3, 4, 5, 6, 7)
+    ```
 ### for in
 **for** "name" **in** "something like array"
 ```python
