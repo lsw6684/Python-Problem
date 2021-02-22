@@ -12,6 +12,7 @@
 - [**for in**](#for-in) **: This is the same as used in JS, I think.**
 - [**module**](#module) **: fetch some library or function, somthing like that**
 - [**range**](#range) **: Generate a list of numbers automately**
+- [**method**](#method) **: Method is a "function" in "class"**
 
 ### list
 - **Indexing** 
@@ -118,3 +119,20 @@ range(6)                        # [0, 1, 2, 3, 4, 5], ( = range(0, 6) )
 marks = [1, 2, 3, 4, 5]
 for test in range(len(mark)) :  # len(mark) = 5 >> test is from "0" to "4"
 ```
+
+### method
+```python
+def name(argument) :            # when you use the first argument, you must put the "self" on the argument place
+  print('hi')
+```
+- **dir :** show the lists of everything in a class 
+  ```python
+  >>> class Car() :
+  >>>   wheels = 4
+  >>>   doors = 4
+  >>>   print(dir(Car))
+  ...all the properties in class 
+  ```
+
+
+
