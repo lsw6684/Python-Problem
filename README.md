@@ -13,6 +13,7 @@
 - [**module**](#module) **: fetch some library or function, somthing like that**
 - [**range**](#range) **: Generate a list of numbers automately**
 - [**method**](#method) **: Method is a "function" in "class"**
+- [**set**](#set) - {} **: A unordered set of unique arbitrary objects**
 
 ### list
 - **Indexing** 
@@ -133,6 +134,13 @@ def name(argument) :            # when you use the first argument, you must put 
   >>>   print(dir(Car))
   ...all the properties in class 
   ```
+  
+### set
+```python
+ex_set = {'sw', 27, True}
+ex_set == {'sw', 27, True, True}  # True
+ex_set == {'sw', True, 27}        # True
+```
 
 
 
