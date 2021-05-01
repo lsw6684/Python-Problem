@@ -1,0 +1,8 @@
+def solution(array, commands):
+    answer = []
+    tmp = []
+    
+    for i in commands:
+        x, y, z = i
+        answer.append(list(sorted(array[x-1:y]))[z-1])
+    return answer
